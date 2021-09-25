@@ -70,6 +70,9 @@ class JoinActivity : AppCompatActivity() {
                             Toast.makeText(this, "회원가입이 완료되었습니다", Toast.LENGTH_LONG).show()
 
                             val intent = Intent(this, MainActivity::class.java)
+
+                            // by 제호 : MainActivity에서 뒤로가기 버튼을 누르면, 회원가입 화면이 아닌 어플 종료
+                            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                             startActivity(intent)
 
                         } else {
