@@ -8,25 +8,90 @@
         android:id="@+id/storeFragment"
         android:name="com.jeho.mysololife.fragments.StoreFragment"
         android:label="fragment_store"
-        tools:layout="@layout/fragment_store" />
+        tools:layout="@layout/fragment_store" >
+        <action
+            android:id="@+id/action_storeFragment_to_talkFragment"
+            app:destination="@id/talkFragment" />
+        <action
+            android:id="@+id/action_storeFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+        <action
+            android:id="@+id/action_storeFragment_to_tipFragment"
+            app:destination="@id/tipFragment" />
+        <action
+            android:id="@+id/action_storeFragment_to_bookmarkFragment2"
+            app:destination="@id/bookmarkFragment2" />
+    </fragment>
     <fragment
         android:id="@+id/talkFragment"
         android:name="com.jeho.mysololife.fragments.TalkFragment"
         android:label="fragment_talk"
-        tools:layout="@layout/fragment_talk" />
+        tools:layout="@layout/fragment_talk" >
+        <action
+            android:id="@+id/action_talkFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+        <action
+            android:id="@+id/action_talkFragment_to_bookmarkFragment2"
+            app:destination="@id/bookmarkFragment2" />
+        <action
+            android:id="@+id/action_talkFragment_to_storeFragment"
+            app:destination="@id/storeFragment" />
+        <action
+            android:id="@+id/action_talkFragment_to_tipFragment"
+            app:destination="@id/tipFragment" />
+    </fragment>
     <fragment
         android:id="@+id/tipFragment"
         android:name="com.jeho.mysololife.fragments.TipFragment"
         android:label="fragment_tip"
-        tools:layout="@layout/fragment_tip" />
+        tools:layout="@layout/fragment_tip" >
+        <action
+            android:id="@+id/action_tipFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+        <action
+            android:id="@+id/action_tipFragment_to_bookmarkFragment2"
+            app:destination="@id/bookmarkFragment2" />
+        <action
+            android:id="@+id/action_tipFragment_to_storeFragment"
+            app:destination="@id/storeFragment" />
+        <action
+            android:id="@+id/action_tipFragment_to_talkFragment"
+            app:destination="@id/talkFragment" />
+    </fragment>
     <fragment
         android:id="@+id/homeFragment2"
         android:name="com.jeho.mysololife.fragments.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_talkFragment"
+            app:destination="@id/talkFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_storeFragment"
+            app:destination="@id/storeFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_bookmarkFragment2"
+            app:destination="@id/bookmarkFragment2" />
+        <action
+            android:id="@+id/action_homeFragment2_to_tipFragment"
+            app:destination="@id/tipFragment" />
+    </fragment>
     <fragment
         android:id="@+id/bookmarkFragment2"
         android:name="com.jeho.mysololife.fragments.BookmarkFragment"
         android:label="fragment_bookmark"
-        tools:layout="@layout/fragment_bookmark" />
+        tools:layout="@layout/fragment_bookmark" >
+        <action
+            android:id="@+id/action_bookmarkFragment2_to_tipFragment"
+            app:destination="@id/tipFragment" />
+        <action
+            android:id="@+id/action_bookmarkFragment2_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+        <action
+            android:id="@+id/action_bookmarkFragment2_to_talkFragment"
+            app:destination="@id/talkFragment" />
+        <action
+            android:id="@+id/action_bookmarkFragment2_to_storeFragment"
+            app:destination="@id/storeFragment" />
+    </fragment>
 </navigation>
