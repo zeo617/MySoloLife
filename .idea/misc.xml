@@ -10,6 +10,11 @@
         <entry key="..\:/inflearn/MySoloLife/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/inflearn/MySoloLife/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/inflearn/MySoloLife/app/src/main/res/layout/activity_splash.xml" value="0.21603260869565216" />
+        <entry key="..\:/inflearn/MySoloLife/app/src/main/res/layout/fragment_bookmark.xml" value="0.35104166666666664" />
+        <entry key="..\:/inflearn/MySoloLife/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/inflearn/MySoloLife/app/src/main/res/layout/fragment_store.xml" value="0.35104166666666664" />
+        <entry key="..\:/inflearn/MySoloLife/app/src/main/res/layout/fragment_talk.xml" value="0.35104166666666664" />
+        <entry key="..\:/inflearn/MySoloLife/app/src/main/res/layout/fragment_tip.xml" value="0.35104166666666664" />
       </map>
     </option>
   </component>
